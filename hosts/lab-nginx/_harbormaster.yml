@@ -1,0 +1,8 @@
+config:
+  prune: true
+apps:
+  nginx:
+    branch: main
+    compose_config: 
+      - hosts/lab-nginx/nginx.docker-compose.yml
+    url: https://github.com/pegasuspad/hm-lab-nginx.git
