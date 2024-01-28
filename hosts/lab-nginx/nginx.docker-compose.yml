@@ -4,4 +4,6 @@ services:
     ports:
     - "80:80"
     - "443:443"
+    volumes:
+    - ${HM_DATA_DIR}/conf:/etc/nginx/conf.d
     
